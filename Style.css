@@ -8,7 +8,7 @@ header {
     font-family: sans-serif;
 }
 /* Formatting for navigation bar */
-.Navigation {
+    ul {
     text-align: center;
     list-style-type: none;
     margin: 0;
