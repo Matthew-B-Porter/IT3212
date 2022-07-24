@@ -1,0 +1,45 @@
+/* Header formatting color, font, margins */
+header {
+    padding: 60px;
+    margin: 0;
+    text-align: center;
+    background-color: beige;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/* Formatting for navigation bar */
+.Navigation {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Formatting to get navigation bar horizontal and adjust distance */
+li {
+    padding: 10px;
+    display: inline-grid;
+}
+/* Formatting for body's text, color, padding and margins */
+body {
+    margin: 10px;
+    text-align: center;
+    background-color: dimgray;
+    font-family: sans-serif;
+    padding: 20px;
+}
+/* Headers formatting for color, position, and font */
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+    text-align: center;
+    color: aqua;
+}
+/* footer format to move footer to bottom, color, alignment, and background */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+  text-align: center;  
+}
