@@ -43,3 +43,65 @@ footer {
   color: white;
   text-align: center;  
 }
+/*Creating content for table on about page to show the printer types and what they do*/
+#aboutprint, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 50%;
+    background-color: beige;
+    border-style: solid;
+    border-color: aqua;
+    border-collapse: collapse;
+}
+/*troubleshooting table added had this part of table float left*/
+#troubleshooting {
+    align-content: center;
+    align-content: center;
+    float: left;
+}
+/*Classes table created to float right so both parts are side by side */
+#classes {
+    align-content: center;
+    align-content: center;
+    float: right;
+}
+/*contat table aligned center and auto margins*/
+#contactable {
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+/**/
+#indexarticle {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 50%;
+    background-color: beige;
+    border-style: solid;
+    border-color: aqua;
+    border-collapse: collapse;
+}
+
+#indexsection {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 50%;
+    background-color: beige;
+    border-style: solid;
+    border-color: aqua;
+    border-collapse: collapse;
+}
+
+#indextable {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 50%;
+    background-color: beige;
+    border-style: solid;
+    border-color: aqua;
+    border-collapse: collapse;
+}
