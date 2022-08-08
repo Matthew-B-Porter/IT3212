@@ -105,3 +105,30 @@ footer {
     border-color: aqua;
     border-collapse: collapse;
 }
+/* gallery css for making content fit in middle of page*/
+.gallery {
+    display: inline-block;
+    align-content: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+/* hover change to endicate you have your mouse over image*/
+.gallery:hover {
+    display: inline-block;
+    border: 1px solid #777;
+}
+
+.gallery img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
